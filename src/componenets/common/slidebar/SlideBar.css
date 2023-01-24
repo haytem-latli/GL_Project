@@ -1,0 +1,65 @@
+.slidebar {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+sl {
+  position: relative;
+}
+.Navtitle {
+  width: 100%;
+}
+.nav-menu {
+  border-left: 6px solid #38c6bd;
+  height: 100%;
+  background-color: #d6d6d6;
+  width: 35%;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 600ms;
+}
+
+.nav-menu.active {
+  right: 0;
+  transition: 600ms;
+}
+.nav-text {
+  display: flex;
+  list-style: none;
+}
+
+.nav-text a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 3.7vw;
+  line-height: 24px;
+  text-align: left;
+  letter-spacing: 0.2px;
+  color: #2d4059;
+  height: 50%;
+  border-radius: 4px;
+  margin-top: 20%;
+}
+
+.nav-text a:hover {
+  color: #38c6bd;
+}
+
+.nav-menu-items {
+  width: 100%;
+  padding-left: 10%;
+}
+
+.navbar-toggle {
+  display: flex;
+  min-width: 100%;
+  margin-top: 2%;
+  margin-left: 50%;
+}
+.navbar-toggle img {
+  height: 40px;
+  width: 40px;
+}

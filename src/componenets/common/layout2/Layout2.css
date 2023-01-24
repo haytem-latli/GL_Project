@@ -1,0 +1,15 @@
+
+.panel_container {
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media (max-width: 600px) {
+  .panel_container {
+    flex-direction: column;
+  }
+}

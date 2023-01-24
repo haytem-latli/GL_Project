@@ -1,0 +1,25 @@
+.panel {
+  width: 35%;
+  padding: 0px;
+  text-align: left;
+}
+.panel_title {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #2d4059;
+  text-align: left;
+}
+.panel_text {
+  font-weight: 400;
+  font-size: 15px;
+  color: #0a0a0a;
+}
+.panel_line {
+  float: left;
+}
+@media (max-width: 600px) {
+  .panel {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
