@@ -15,7 +15,7 @@ function Feed() {
       <Navbar />
       <div className="parent">
         <Left />
-        {active==="Landing" && <Middle title="landing page"/>}
+        {active==="Landing" && <Middle title=""/>}
         <Right />
       </div>
       <Footer />

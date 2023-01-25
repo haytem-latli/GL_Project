@@ -14,8 +14,44 @@ class Middle extends Component {
           <Post 
             img={photo_1} 
             avai="available" 
-            type="onlin courses"
-            subject="art"
+            type="Onlin Courses"
+            subject="Art"
+            description="We focus on developing your skills in your comfort zone. It's only a keystroke away."
+            sales="15"
+            type_school="Primary"
+            price="6.48"
+            period="22"
+            nbrLessons="24"
+          />
+          <Post 
+            img={photo_1} 
+            avai="available" 
+            type="Onlin Courses"
+            subject="Art"
+            description="We focus on developing your skills in your comfort zone. It's only a keystroke away."
+            sales="15"
+            type_school="Primary"
+            price="6.48"
+            period="22"
+            nbrLessons="24"
+          />
+          <Post 
+            img={photo_1} 
+            avai="available" 
+            type="Onlin Courses"
+            subject="Art"
+            description="We focus on developing your skills in your comfort zone. It's only a keystroke away."
+            sales="15"
+            type_school="Primary"
+            price="6.48"
+            period="22"
+            nbrLessons="24"
+          />
+          <Post 
+            img={photo_1} 
+            avai="available" 
+            type="Onlin Courses"
+            subject="Art"
             description="We focus on developing your skills in your comfort zone. It's only a keystroke away."
             sales="15"
             type_school="Primary"
