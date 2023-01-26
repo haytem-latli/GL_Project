@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",    
+    "http://127.0.0.1:3000",    
 ]
 
 
@@ -164,3 +164,4 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = [
     'https://www.googleapis.com/auth/userinfo.email',
     'https://www.googleapis.com/auth/userinfo.profile',
 ]
+SOCIAL_AUTH_USER_FIELDS = ['email', 'username', 'first_name', 'password']

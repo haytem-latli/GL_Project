@@ -5,6 +5,7 @@ import ContactUs from "./pages/ContactUs";
 import Feed from "./pages/feed";
 import { Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
+import React from 'react';
 function App() {
   return (
     <div className="App">
