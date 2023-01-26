@@ -1,0 +1,72 @@
+.left {
+    padding-top: 150px;
+    padding-bottom: 20px;
+    background-color: white;
+    width: 100%;
+    position: sticky; 
+    top: 0;
+    height: 83vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.left > h2 {
+    color:#2D4059;  
+}
+.filter_form {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-between;
+    align-items: center;
+    margin : 5%;
+    padding:10% ;
+}
+.filter_form > button {
+    background-color: #38C6BD;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border: 0px;
+    height: 50px;
+    width: 30%;
+}
+.filter_form > input {
+    width: 96%;
+    height: 30px;
+    border: 2px solid #2D4059;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    align-self: center;
+    padding-left: 10px;
+}
+.filter_form > input::placeholder {
+    font-weight: bold;
+}
+.period_temps {
+    border: 2px solid #2D4059;
+    border-radius: 5px;
+    width: 100%;
+}
+.period_temps > .temps {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+.period_temps > .temps > div {
+    width: 45%;
+}
+.period_temps > .temps > div > p {
+    margin: 15px 5px;
+}
+.period_temps > .temps > div > input {
+    width: 90%;
+    height: 30px;
+    border: 2px solid #2D4059;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    align-self: center;
+}

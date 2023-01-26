@@ -1,0 +1,7 @@
+.middle {
+    padding-top: 150px;
+    width: 100%;
+    height: 22000px;
+    display: flex;
+    flex-direction: column;
+}
