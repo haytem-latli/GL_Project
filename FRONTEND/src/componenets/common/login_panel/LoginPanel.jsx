@@ -17,10 +17,10 @@ class LoginPanel extends Component {
           <Link to="/" className="displayprob">
             <img src={logo} alt="logo" className="secondaryLogo"></img>
           </Link>
-          <text className="secondarytext">Let's get started</text>
+          <p className="secondarytext">Let's get started</p>
           <Link to="/feed" className="secondarybtn">
             <img src={google} alt=" google"></img>
-            <taxt className="btnText">Continue with Google</taxt>
+            <p className="btnText">Continue with Google</p>
           </Link>
 
 {/* //le button cnx GOOGLE */}

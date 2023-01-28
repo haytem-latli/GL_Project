@@ -52,3 +52,6 @@ class NewUser(AbstractBaseUser, PermissionsMixin):
 
     def __str__(self):
         return self.username
+    def get_user_id(self):
+        return self.pk  
+    

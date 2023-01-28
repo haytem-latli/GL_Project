@@ -44,8 +44,9 @@ INSTALLED_APPS = [
     'social_django',
     'drf_social_oauth2',
     'corsheaders',
-    'users'
-]
+    'users',
+    'Annonces']
+    
 
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",    
@@ -148,6 +149,7 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'oauth2_provider.contrib.rest_framework.OAuth2Authentication',
         'drf_social_oauth2.authentication.SocialAuthentication',
+
     ),
 }
 AUTHENTICATION_BACKENDS = (
