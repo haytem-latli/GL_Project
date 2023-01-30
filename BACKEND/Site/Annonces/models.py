@@ -21,3 +21,25 @@ class Annonce(models.Model):
     def __str__(self):
 
         return self.user
+class Message(models.Model):
+    idMessage = models.AutoField(primary_key=True)
+    annonce = models.ForeignKey(Annonce, on_delete=models.CASCADE)
+    sender = models.ForeignKey(NewUser, on_delete=models.CASCADE,related_name='sender')
+    receiver = models.ForeignKey(NewUser, on_delete=models.CASCADE,related_name='receiver')
+    Context = models.TextField()
+
+
+    def __str__(self):
+
+        return self.idMessage
+
+
+
+class FavAnnonce (models.Model):
+    idFavAnnonce = models.AutoField(primary_key=True)
+    user = models.ForeignKey(NewUser, on_delete=models.CASCADE )
+    annonce = models.ForeignKey(Annonce, on_delete=models.CASCADE)
+
+    def __str__(self):
+
+        return self.idFavAnnonce
