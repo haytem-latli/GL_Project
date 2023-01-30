@@ -16,13 +16,13 @@ class Navbar extends Component {
         </section>
         <section className="links">
             <Link to="/" className="navbar_item1">
-              <text className="navbar_item">Home</text>
+              <p className="navbar_item">Home</p>
             </Link>
             <Link to="/About-Us" className="navbar_item2">
-              <text className="navbar_item">About Us</text>
+              <p className="navbar_item">About Us</p>
             </Link>
             <Link to="/Contact-Us" className="navbar_item3">
-              <text className="navbar_item">Contact Us</text>
+              <p className="navbar_item">Contact Us</p>
             </Link>
         </section>
       </section>

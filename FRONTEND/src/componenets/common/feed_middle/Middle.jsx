@@ -1,52 +1,26 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { Route, Routes } from "react-router-dom";
 import "./Middle.css";
 import Post from "./post";
 import photo_1 from "./resources/art.png";
+import axiosInstance from '../../../axios/axios';
+import { useEffect } from 'react';
 
 
-class Middle extends Component {
-    render() {
+
+
+function Middle(props) {
+
+  useEffect(() => {
+    axiosInstance.get().then((res) => {
+      const allPosts = res.data;
+      console.log(res.data);
+    });
+  },);
+
+
       return (
         <section className="middle div2">
-          <h1>{this.props.title}</h1>
-          <Post 
-            img={photo_1} 
-            avai="available" 
-            type="Onlin Courses"
-            subject="Art"
-            description="We focus on developing your skills in your comfort zone. It's only a keystroke away."
-            sales="15"
-            type_school="Primary"
-            price="6.48"
-            period="22"
-            nbrLessons="24"
-          />
-          <Post 
-            img={photo_1} 
-            avai="available" 
-            type="Onlin Courses"
-            subject="Art"
-            description="We focus on developing your skills in your comfort zone. It's only a keystroke away."
-            sales="15"
-            type_school="Primary"
-            price="6.48"
-            period="22"
-            nbrLessons="24"
-          />
-          <Post 
-            img={photo_1} 
-            avai="available" 
-            type="Onlin Courses"
-            subject="Art"
-            description="We focus on developing your skills in your comfort zone. It's only a keystroke away."
-            sales="15"
-            type_school="Primary"
-            price="6.48"
-            period="22"
-            nbrLessons="24"
-          />
+          <h1 className="page_title">{props.title}</h1>
           <Post 
             img={photo_1} 
             avai="available" 
@@ -61,7 +35,6 @@ class Middle extends Component {
           />
         </section>
       );
-    }
   }
   
   export default Middle;

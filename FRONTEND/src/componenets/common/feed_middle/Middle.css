@@ -5,3 +5,8 @@
     display: flex;
     flex-direction: column;
 }
+.page_title {
+    color: #2D4059;
+    margin-left: 5%;
+    font-size: xx-large;
+}

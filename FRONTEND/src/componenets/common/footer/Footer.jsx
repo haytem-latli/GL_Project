@@ -12,22 +12,22 @@ class Footer extends Component {
           <section className="footer_section">
             <h5 className="titles">Company Info</h5>
             <Link to="/About-us" >
-              <text className="footer_link">About Us</text>
+              <p className="footer_link">About Us</p>
             </Link>
           </section>
           <section className="footer_section">
             <h5 className="titles">Resources</h5>
             <Link to="https://www.figma.com/fr/">
-              <text className="footer_link">Figma</text>
+              <p className="footer_link">Figma</p>
             </Link>
             <Link to="https://github.com/">
-              <text className="footer_link">Github</text>
+              <p className="footer_link">Github</p>
             </Link>
             <Link to="https://fr.reactjs.org/">
-              <text className="footer_link">React</text>
+              <p className="footer_link">React</p>
             </Link>
             <Link to="https://www.python.org/">
-              <text className="footer_link">Python</text>
+              <p className="footer_link">Python</p>
             </Link>
           </section>
           <section className="footer_section">

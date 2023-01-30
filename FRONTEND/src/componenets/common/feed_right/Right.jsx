@@ -8,14 +8,15 @@ class Right extends Component {
       return (
         <section className="right div3">
             <div className="up">
-                <button className="up_btn">My Profile</button>
-                <button className="up_btn">Log Out</button>
+                <Link to="" className="up_btn">My Profile</Link>
+                <Link to="/" className="up_btn">Log Out</Link>
             </div>
             <div className="down">
-                <button className="btn1">Become a tutor</button>
-                <button className="btn2">Saved announcements </button>
-                <button className="btn3">Recieved Messages</button>
-                <button className="btn4">My announcements</button>
+                <Link to="" className="btn1">Become a tutor</Link>
+                <Link to="/AddAnnonce" className="btn5">Add an announcements</Link>
+                <Link to="/saved" className="btn2">Saved announcements </Link>
+                <Link to="/messages" className="btn3">Recieved Messages</Link>
+                <Link to="/MyAnn" className="btn4">My announcements</Link>
             </div>
         </section>
       );

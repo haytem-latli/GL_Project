@@ -14,15 +14,16 @@
 }
 .titles {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   color: #2d4059;
   margin: 30px 0px;
 }
 .footer_link {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 17px;
   color: #4f4e4e;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+  text-align: start;
 }
 .footer_section {
   display: flex;

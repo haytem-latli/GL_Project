@@ -1,0 +1,96 @@
+.addAnno {  
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.formulair {
+    width: 80%;
+    height: 60%;
+    background-color: white;
+    border-radius: 40px;
+    border: 5px solid black;
+    display: flex;
+}
+.c1 {
+    color: #2D4059;
+}
+.formulair > div {
+    overflow: auto;
+}
+.case1 {
+    width: 27%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_img {
+    width: 80%;
+    height: 80%;
+    border: 5px solid black;
+    border-radius: 40px;
+    background-image: url("./ressourse/pngfind\ 1.png");
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    cursor: pointer;
+}
+.case2 {
+    width: 40%;
+    height: 100%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.cldrr > h3 , .GRGZDS{
+    margin: 5% 0px;
+}
+.cldrr > input {
+    border: 5px solid black;
+    border-radius: 40px ;
+    background-color: white;
+    height: 50px;
+    padding-left: 5%;
+}
+    .kbira  {
+    border: 5px solid black;
+    border-radius: 40px ;
+    background-color: white;
+    height: 120px;
+    padding: 5% 5%;
+    width: 95%;
+    resize: none;
+    box-sizing: border-box;
+}
+.case3 {
+    width: 33%;
+    height: 100%;
+    position: relative;
+}
+.sdf {
+    width: 90%;
+    justify-content: space-between  ;
+}
+.fdsgds {
+    display: flex;
+}
+.prixDurre , .location {
+    padding-top: 5% ;
+    display: flex;
+}
+.prixDurre > .cldrr > input , .location > .cldrr > input{
+    width: 80%;
+}
+.submiiiit {
+    background-color: black;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 40px;
+    color: white;
+    padding: 10px 15px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

@@ -18,3 +18,12 @@ body {
 .div1 { grid-area: div1; }
 .div2 { grid-area: div2; }
 .div3 { grid-area: div3; }
+
+.container-1 {
+  display: grid; 
+  grid-template-columns: 1.4fr 0.6fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "div4 div3"; 
+}

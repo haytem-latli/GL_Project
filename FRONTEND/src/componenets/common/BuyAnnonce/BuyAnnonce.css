@@ -1,0 +1,17 @@
+.more_ann {
+    height:100vh;
+    width: 100%;
+    background-color: #D6D6D6;
+    position : relative;
+    padding-top: 30px;
+    display:flex;
+    justify-content: center;
+}
+.annoc {
+    margin: 10%;
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    border-radius: 40px;
+}

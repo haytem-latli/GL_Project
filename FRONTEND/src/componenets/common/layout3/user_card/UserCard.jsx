@@ -14,7 +14,7 @@ class UserCard extends Component {
           className="profile_pic"
         ></img>
         <h5 className="Name">{this.props.name}</h5>
-        <text className="teacher">{this.props.speciality}</text>
+        <p className="teacher">{this.props.speciality}</p>
         <section className="icon_section">
           <Link to="https://fr-fr.facebook.com/">
             <img src={fb_icon} alt="facebook"></img>

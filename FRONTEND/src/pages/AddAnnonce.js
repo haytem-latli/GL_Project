@@ -2,18 +2,16 @@ import React from "react";
 import {
     Navbar,
     Right,
-    Left,
-    Middle,
+    Addanno,
     Footer,
   } from "../componenets/common";
-function Feed() {
+function AddAnnonce() {
 
   return (
     <div>
       <Navbar />
-      <div className="parent">
-        <Left />
-         <Middle title=""/>
+      <div className="container-1">
+        <Addanno />
         <Right />
       </div>
       <Footer />
@@ -21,4 +19,4 @@ function Feed() {
   );
 }
 
-export default Feed;
+export default AddAnnonce;

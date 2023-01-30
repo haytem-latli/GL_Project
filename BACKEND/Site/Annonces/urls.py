@@ -9,10 +9,5 @@ urlpatterns = [
     path('detail/<int:pk>/', PostDetail.as_view(), name="detail_annonce"),
     path('filter/', PostListDetailfilter.as_view(), name="filter_annonce"),
     path('delete/<str:pk>/', DeletePost.as_view(), name="delete_annonce"),
-    path('edit/<str:pk>/', EditPost.as_view(), name="edit_annonce"),
-
-
-    
-
-
+    path('', EditPost.as_view(), name="edit_annonce"),
 ]
